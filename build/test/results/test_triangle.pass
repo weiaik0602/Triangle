@@ -1,0 +1,28 @@
+---
+:source:
+  :path: test
+  :file: test_triangle.c
+:successes:
+- :test: test_triangle_Classify_7_4_3
+  :line: 12
+  :message: ''
+- :test: test_triangle_checkValid_expect_valid
+  :line: 19
+  :message: ''
+- :test: test_triangle_3_4_5_expect_rightangle
+  :line: 26
+  :message: ''
+- :test: test_triangle_5_7_8_expect_obtuse
+  :line: 33
+  :message: ''
+- :test: test_triangle_6_6_10_expect_accute
+  :line: 40
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout: []
